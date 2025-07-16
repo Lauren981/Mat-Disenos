@@ -15,10 +15,10 @@ export default function Navbar() {
           width={2250}
           height={712}
           className="logo"
-          >
+        >
         </Image>
       </div>
-      <div className="navbar">
+      <div className="">
         <ul>
           <li>
             <Link className='link' href="/">Inicio</Link>
@@ -40,14 +40,14 @@ export default function Navbar() {
       <div className="">
         <ul>
           <li>
-              <Link className='icon' href="/cart">
-                  <FaCartPlus />
-              </Link>
+            <Link className='icon' href="/cart">
+              <FaCartPlus />
+            </Link>
           </li>
           <li>
-          <Link className='icon' href="/user">
-              <FaUserCircle/>
-          </Link>
+            <Link className='icon' href="/user">
+              <FaUserCircle />
+            </Link>
           </li>
         </ul>
       </div>

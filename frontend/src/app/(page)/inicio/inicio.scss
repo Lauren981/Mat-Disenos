@@ -1,28 +1,16 @@
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin: 2rem 2rem;
-    padding: 1rem;
-}
-
-.col{
+.col-6 {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    padding: 1rem;
-    gap: 1rem;
+    justify-content: center;
 }
 
 p{
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #333333;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #000000;
     margin-bottom: 3rem;
     font-weight: bold;
@@ -31,11 +19,11 @@ h1{
 .button{
     background-color: #000000;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 6px 30px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -46,7 +34,12 @@ h1{
     gap: 1rem;
 }
 
+.col-image {
+    display: flex;
+    justify-content: center;
+}
+
 .imagen-inicio{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
